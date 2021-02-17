@@ -11,7 +11,7 @@ namespace MeramecNetflixProject.Data_Access_Layer
 	{
 		public static SqlConnection GetConnection()
 		{
-			string connectionString = "server=mc-sluggo.stlcc.edu; database=IS253_Gonzalez; user=gonzalez; password=gonzalez";
+			string connectionString = "server=test; database=test; user=test; password=test";
 			SqlConnection connection = new SqlConnection(connectionString);
 			return connection;
 		}
